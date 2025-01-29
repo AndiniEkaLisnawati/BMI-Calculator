@@ -221,6 +221,46 @@ main{
         flex-direction: column; /* Mengatur arah flex menjadi kolom */
         align-items: stretch; /* Mengatur agar item mengisi lebar */
     }
+
+    .container-calc{
+        margin: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    form{
+      min-width: 100%;
+    }
+    
+    .form-input{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fbfbfb;
+        border: 1px solid;
+        align-items: stretch;
+    }
+    
+    .input-group{
+        display: flex;
+        align-items: center;
+        line-height: 1%;
+    }
+    
+    .input-group input {
+        flex-grow: 1;
+        padding: 15px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    
+    form .input-group-desc{
+        margin-left: 1px;
+        padding: 0.3rem 0.1rem;
+    
+    }
+    
     
     .footer-container ul{
         display: flex;
